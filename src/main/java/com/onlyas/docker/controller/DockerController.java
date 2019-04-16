@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerController {
     @RequestMapping("/")
     public String index() {
-        return "哈哈，Hello 世界 Docker!";
+        return "2019-4-16，哈哈，Hello 世界 Docker!";
     }
 }
